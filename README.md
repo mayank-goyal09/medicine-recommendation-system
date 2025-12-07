@@ -1,9 +1,9 @@
 ```
-╔═══════════════════════════════════════════════════════════════╗
-║          ⚕️ ELITE MEDICAL AI DIAGNOSTIC SYSTEM ⚕️            ║
-║      AI-Powered Disease Prediction & Health Recommendations   ║
-║              Professional ML Architecture                     ║
-╚═══════════════════════════════════════════════════════════════╝
+                                ╔═══════════════════════════════════════════════════════════════╗
+                                ║          ⚕️ ELITE MEDICAL AI DIAGNOSTIC SYSTEM ⚕️            ║
+                                ║      AI-Powered Disease Prediction & Health Recommendations   ║
+                                ║              Professional ML Architecture                     ║
+                                ╚═══════════════════════════════════════════════════════════════╝
 ```
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)](https://www.python.org/)
@@ -424,10 +424,10 @@ MIT License - See [LICENSE](LICENSE) file for details
 ### ⭐ If this project helped you learn ML or healthcare tech, please give it a star!
 
 ```
-╔═══════════════════════════════════════════════════════════════╗
-║       Built with ❤️ and Advanced Machine Learning             ║
-║          Ready for Production & Portfolio                     ║
-╚═══════════════════════════════════════════════════════════════╝
+                                    ╔═══════════════════════════════════════════════════════════════╗
+                                    ║       Built with ❤️ and Advanced Machine Learning             ║
+                                    ║          Ready for Production & Portfolio                     ║
+                                    ╚═══════════════════════════════════════════════════════════════╝
 ```
 
 ---

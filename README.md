@@ -1,8 +1,8 @@
 ```
 ╔═══════════════════════════════════════════════════════════════╗
-║          ⚕️ ELITE MEDICAL AI DIAGNOSTIC SYSTEM ⚕️                ║
-║      AI-Powered Disease Prediction & Health Recommendations       ║
-║              Professional ML Architecture                         ║
+║          ⚕️ ELITE MEDICAL AI DIAGNOSTIC SYSTEM ⚕️            ║
+║      AI-Powered Disease Prediction & Health Recommendations   ║
+║              Professional ML Architecture                     ║
 ╚═══════════════════════════════════════════════════════════════╝
 ```
 
@@ -425,8 +425,8 @@ MIT License - See [LICENSE](LICENSE) file for details
 
 ```
 ╔═══════════════════════════════════════════════════════════════╗
-║       Built with ❤️ and Advanced Machine Learning                ║
-║          Ready for Production & Portfolio                         ║
+║       Built with ❤️ and Advanced Machine Learning             ║
+║          Ready for Production & Portfolio                     ║
 ╚═══════════════════════════════════════════════════════════════╝
 ```
 

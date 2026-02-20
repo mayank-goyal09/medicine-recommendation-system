@@ -76,7 +76,7 @@ Experience the full diagnostic system with:
 - Organized clinical intelligence report
 - Confidence gauge with gradient indicators
 
-### 📊 Data-Driven Insights
+### 📊 Data-Driven Insight
 
 - Symptom severity mapping
 - Disease-specific training dataset (4920+ records)

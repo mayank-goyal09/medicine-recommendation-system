@@ -247,3 +247,38 @@ plotly>=5.14.0
 ```
 
 ---
+
+## 🧠 Machine Learning Details
+
+### Model Architecture
+
+- **Algorithm**: Decision Tree Classifier (Scikit-learn)
+- **Features**: 132 symptom binary indicators
+- **Output Classes**: 41 disease categories
+- **Training Data**: 4,920 symptom-disease records
+- **Accuracy**: 94.7% (reported in app UI)
+
+### Feature Engineering
+
+```python
+# Symptom Encoding Process
+input_vector = np.zeros(132)  # Initialize zero vector
+for symptom in selected_symptoms:
+    index = symptom_list.index(symptom)
+    input_vector[index] = 1  # Binary encoding
+
+# Prediction
+disease = model.predict([input_vector])[0]
+```
+
+### Model Training Pipeline
+
+See `main.ipynb` for:
+
+- Data preprocessing & cleaning
+- Feature extraction from symptom columns
+- Decision Tree hyperparameter tuning
+- Model evaluation & validation
+- Joblib serialization for deployment
+
+---

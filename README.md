@@ -101,3 +101,42 @@ Experience the full diagnostic system with:
 - Real-time confidence scoring
 
 ---
+
+## 🛠️ Tech Stack
+
+| Layer                | Technology          | Purpose                           |
+|----------------------|---------------------|-----------------------------------|
+| **Frontend**         | Streamlit           | Interactive web application       |
+| **Backend**          | Python 3.8+         | Core business logic               |
+| **Machine Learning** | Scikit-learn        | Decision Tree Classifier          |
+| **Data Processing**  | Pandas, NumPy       | Data manipulation & vectorization |
+| **Visualization**    | Plotly              | Interactive charts and gauges     |
+| **Model Storage**    | Joblib              | Serialized ML model & symptoms    |
+| **Database**         | CSV Files           | Medical knowledge base (5 datasets) |
+| **UI Styling**       | Custom CSS          | Luxury theme with Google Fonts    |
+
+---
+
+## ⚙️ Architecture
+
+```
+medicine-recommendation-system/
+├── app.py                       # Streamlit application & UI logic
+├── main.ipynb                   # ML model training & experimentation
+├── doctor_model.joblib          # Trained Decision Tree Classifier
+├── symptom_list.joblib          # Serialized symptom feature list
+├── Training.csv                 # ML training dataset (4920 records)
+├── Symptom-severity.csv         # Symptom weight mappings
+├── description.csv              # Disease clinical descriptions
+├── precautions_df.csv           # Preventive care guidelines
+├── medications.csv              # Pharmaceutical recommendations
+├── diets.csv                    # Nutritional blueprints
+├── workout_df.csv               # Exercise protocols
+├── symtoms_df.csv               # Symptom-disease relationship data
+├── requirements.txt             # Python dependencies
+└── .gitignore                   # Version control exclusions
+```
+
+### System Workflow
+
+```

@@ -140,3 +140,110 @@ medicine-recommendation-system/
 ### System Workflow
 
 ```
+
+📦 Elite Medical AI System
+│
+├── 🧠 Machine Learning Core
+│   ├── Decision Tree Classifier (Scikit-learn)
+│   ├── 132 symptom features
+│   └── 41 disease classes
+│
+├── 📊 Medical Intelligence Database
+│   ├── Disease Descriptions
+│   ├── Medications (41 conditions)
+│   ├── Diet Plans (41 conditions)
+│   ├── Precautions (164 guidelines)
+│   └── Workouts (41 protocols)
+│
+├── 🎨 Premium Web Interface
+│   ├── Patient Intake Form
+│   ├── Symptom Selector (Multi-select)
+│   ├── Diagnostic Result Dashboard
+│   └── Confidence Score Gauge
+│
+└── ⚡ Real-Time Processing
+    ├── Symptom Vector Encoding
+    ├── ML Model Prediction
+    └── Comprehensive Report Generation
+```
+
+---
+
+## 📦 Installation
+
+### Prerequisites
+
+- Python 3.8 or higher
+- pip (Python package manager)
+
+### Quick Start
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/mayank-goyal09/medicine-recommendation-system.git
+cd medicine-recommendation-system
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Run the Streamlit application
+streamlit run app.py
+
+# Application will open at: http://localhost:8501
+```
+
+### Requirements
+
+```
+streamlit>=1.28.0
+pandas>=1.5.0
+numpy>=1.23.0
+scikit-learn>=1.2.0
+joblib>=1.2.0
+plotly>=5.14.0
+```
+
+---
+
+## 💻 Usage
+
+### Step-by-Step Diagnostic Process
+
+**1. Patient Intake**
+
+```
+- Navigate to sidebar
+- Enter patient name
+- Input age (1-120)
+- Select gender (Male/Female/Other)
+```
+
+**2. Symptom Selection**
+
+```
+- Use multi-select dropdown
+- Type to search symptoms (e.g., "fever", "cough")
+- Select all applicable symptoms
+- Minimum: 1 symptom required
+```
+
+**3. Generate Diagnosis**
+
+```
+- Click "⚡ GENERATE COMPREHENSIVE DIAGNOSIS"
+- AI processes symptom vector
+- Prediction displayed in seconds
+```
+
+**4. Review Clinical Report**
+
+```
+- 📋 Medical Overview: Disease description
+- 💊 Pharmaceutical Recommendations: Suggested medications
+- 🛡️ Preventive Protocol: 4-step precautions
+- 🥗 Nutritional Blueprint: Diet plan
+- 🏋️ Performance Training: Workout routine
+- 📊 Confidence Gauge: AI certainty score (88-98%)
+```
+
+---
